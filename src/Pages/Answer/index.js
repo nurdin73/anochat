@@ -36,7 +36,7 @@ const Answer = () => {
         question,
         createdDate: moment().format(),
       },
-      `/answers/${user?.id}`
+      `/answers/${params?.name}`
     );
     setLoadingButton(false);
     // setQuestion("");
